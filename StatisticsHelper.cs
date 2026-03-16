@@ -2,6 +2,7 @@ public class StatisticsHelper
 { 
     public static double CalculateAverage(int[] numbers) 
     {
+// Komentarz dla maina
 	int suma = 0;
 	foreach(var n in numbers)
 	{
