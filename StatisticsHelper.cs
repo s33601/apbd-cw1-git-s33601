@@ -9,7 +9,7 @@ public class StatisticsHelper
 	}
 	return (double)suma/numbers.Length;
 	}
-public statis int CalculateMax(int[] numbers)
+public static int CalculateMax(int[] numbers)
 {
 	int max = numbers[0];
 	foreach(var n in numbers){
@@ -17,14 +17,14 @@ public statis int CalculateMax(int[] numbers)
 }
 	return max;
 }
-public static int CalculateMin(int[] numbers)
-{
-	in min = numbers[0];
-	foreach(var n in numbers){
-	if min > n) min = n;		
-}
-	return min;
-}
-}
+public static int CalculateMin(int[] numbers) 
+    { 
+        int min = numbers[0]; 
+        foreach (var n in numbers) 
+        { 
+            if (min > n) min = n; 
+        } 
+        return min; 
+    }
 	
 }
