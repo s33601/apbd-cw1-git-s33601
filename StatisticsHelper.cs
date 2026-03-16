@@ -2,6 +2,7 @@ public class StatisticsHelper
 { 
     public static double CalculateAverage(int[] numbers) 
     {
+// Komentarz dla galezi feature-conflict
 	int suma = 0;
 	foreach(var n in numbers)
 	{
