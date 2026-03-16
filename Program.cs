@@ -1,1 +1,1 @@
-﻿Console.WriteLine("Hello, World!");
+Console.WriteLine("Wprowadz liczby oddzielone przecinkami: ");
