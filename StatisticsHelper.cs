@@ -9,5 +9,13 @@ public class StatisticsHelper
 	}
 	return (double)suma/numbers.Length;
 	}
+public statis int CalculateMax(int[] numbers0
+{
+	int max = numbers[0];
+	foreach(var n in numbers){
+	if (max < n) max = n;		
+}
+	return max;
+}
 	
 }
